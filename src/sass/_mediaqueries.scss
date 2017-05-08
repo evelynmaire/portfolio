@@ -1,0 +1,164 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container-intro,
+  .container-portfolio,
+  .container-about,
+  .container-contact,
+  .container-project {
+    width: 90%;
+  }
+  .container-portfolio {
+    margin-top: -7em;
+  }
+  .container-about {
+    margin-top: -6em;
+    p,
+    li {
+      font-size: 1.4em;
+    }
+  }
+  .container-contact {
+    margin-top: -7em;
+  }
+  .container-project {
+    margin-top: -7em;
+    p {
+      font-size: 2em;
+    }
+  }
+  .intro {
+    font-size: 4.4em;
+  }
+  .portfolio-grid {
+    display: inline;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    align-items: center;
+    img {
+      margin: 0 auto;
+      margin-top: 1em;
+      width: 100%;
+    }
+  }
+  .about-container {
+    width: 100%;
+    .about-left {
+      width: 100%;
+      .about-me {
+        font-size: 2.4em;
+        width: 100%;
+      }
+      .information {
+        width: 100%;
+      }
+    }
+    .about-right {
+      width: 100%;
+    }
+  }
+  h1,
+  .header-1,
+  .header-2 {
+    font-size: 4.6em;
+  }
+  form {
+    width: 100%;
+  }
+  input[type="text"],
+  input[type="email"] {
+    font-size: 2.3em;
+  }
+  textarea {
+    font-size: 2em;
+  }
+  input[type="submit"] {
+    font-size: 2.7em;
+  }
+  .project-info {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container-intro,
+  .container-portfolio,
+  .container-about,
+  .container-contact,
+  .container-project {
+    width: 90%;
+  }
+  .container-portfolio {
+    margin-top: -7em;
+  }
+  .container-about {
+    margin-top: -6em;
+    p,
+    li {
+      font-size: 1.6em;
+    }
+  }
+  .container-contact {
+    margin-top: -7em;
+  }
+  .container-project {
+    margin-top: -7em;
+    p {
+      font-size: 2em;
+    }
+  }
+  .intro {
+    font-size: 4.4em;
+  }
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+      display: block;
+      margin: 1em;
+    }
+  }
+  .about-container {
+    width: 100%;
+    .about-left {
+      width: 100%;
+      .about-me {
+        font-size: 2.4em;
+        width: 100%;
+      }
+      .information {
+        width: 100%;
+      }
+    }
+    .about-right {
+      width: 100%;
+    }
+  }
+  h1,
+  .header-1,
+  .header-2 {
+    font-size: 3.6em;
+  }
+  form {
+    width: 100%;
+  }
+  input[type="text"],
+  input[type="email"] {
+    font-size: 2.3em;
+  }
+  textarea {
+    font-size: 2em;
+  }
+  input[type="submit"] {
+    font-size: 2.4em;
+  }
+  .project-info {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,111 @@
+.wrapper-intro {
+  width: 100%;
+  background-color: $midnightblue;
+  padding: 0;
+  margin: 0;
+  min-height: 40vh;
+}
+
+.wrapper-portfolio {
+  width: 100%;
+  background-color: $skyblue;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-about {
+  width: 100%;
+  background-color: $midnightblue;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-contact {
+  width: 100%;
+  background-color: $skyblue;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-project {
+  width: 100%;
+  background-color: $skyblue;
+  padding: 0;
+  margin: 0;
+}
+
+.container-intro,
+.container-portfolio,
+.container-about,
+.container-contact,
+.container-project {
+  width: 68%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.container-portfolio {
+  margin-top: -8em;
+}
+
+.container-about {
+  color: $skyblue;
+  margin-top: -6em;
+}
+
+.container-contact {
+  margin-top: -8em;
+}
+
+.container-project {
+  margin-top: -8em;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  img {
+    display: block;
+    margin: 1em;
+  }
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: url('../../img/me.jpg') no-repeat no-repeat;
+  overflow: auto;
+  width: 100%;
+  .about-left {
+    display: block;
+    margin: 1em;
+    // background-color: cornflowerblue;
+    width: 45%;
+    text-align: right;
+    .about-me {
+      font-family: $header-font;
+      color: $pacificblue;
+      text-transform: uppercase;
+      font-size: 1.4em;
+      display: block;
+      width: 50%;
+      float: right;
+      // background-color: lightgoldenrodyellow;
+    }
+    .information {
+      display: block;
+      width: 100%;
+      float: right;
+      // background-color: darkseagreen;
+      margin-top: 1em;
+    }
+  }
+  .about-right {
+    display: block;
+    margin: 1em;
+    width: 45%;
+    // background-color: salmon;
+  }
+}
